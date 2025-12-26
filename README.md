@@ -97,6 +97,11 @@ npx prisma migrate dev
 npm run dev
 ```
 
+### 5. Render Deployment
+- **Build Command**: `bash render-build.sh`
+- **Start Command**: `npm start`
+- **Envs**: `DATABASE_URL`, `JWT_ACCESS_SECRET`, `STRIPE_SECRET_KEY`, `FRONTEND_URL`.
+
 ---
 
 ## 🚢 Deployment
